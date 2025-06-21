@@ -1,12 +1,9 @@
-//04 - EXERCICIO AULA08 - Media aritmetica de um vetor
-//05 - EXERCICIO AULA08 - Solicite ao usuario 5 valores inteiros e armazene em um vetor. retorne a media aritimetica e o maior e menor valor do vetor.
-
+//EXERCICIO - Solicite ao usuario 5 valores inteiros e armazene em um vetor. retorne a média aritimetica e o maior e menor valor do vetor.
 #include <stdio.h>
 
-    int main(){
-        
-    int vetor[5];
-	int soma = 0;
+int main(){
+	int vetor[5];
+   	int soma = 0;
     float media = 0;
     int maior = 99999;
     int menor = -99999;
@@ -27,15 +24,14 @@
 	// identificando o meior e menor valor do vetor
     for(int i = 0; i < 5; i++){
         if (vetor[i] < maior){
-            maior = vetor[i];
+         	maior = vetor[i];
         }
         if (vetor[i] > menor) {
-            menor = vetor[i];
+           	menor = vetor[i];
         }
     }
-    
     printf("\nMaior valor %d.\nMenor valor %d.", maior, menor);
-       
+	
     return 0;
 }
 

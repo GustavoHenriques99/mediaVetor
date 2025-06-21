@@ -3,7 +3,7 @@
 
 int main(){
 	int vetor[5];
-   	int soma = 0;
+	int soma = 0;
     float media = 0;
     int maior = 99999;
     int menor = -99999;
